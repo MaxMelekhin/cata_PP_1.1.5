@@ -15,11 +15,11 @@ public class Main {
         userService.saveUser("Aquaman", "Igorevich", (byte) 40);
         userService.saveUser("Superman", "Victorovich", (byte) 38);
         userService.saveUser("Flash", "Antonovich", (byte) 27);
-        List<User> listUser = userService.getAllUsers();
-        for (User u : listUser) {
-            System.out.println(u);
-        }
-        userService.cleanUsersTable();
-        userService.dropUsersTable();
+//        List<User> listUser = userService.getAllUsers();
+//        for (User u : listUser) {
+//            System.out.println(u);
+//        }
+//        userService.cleanUsersTable();
+//        userService.dropUsersTable();
     }
 }
